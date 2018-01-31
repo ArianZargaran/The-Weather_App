@@ -20,3 +20,6 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <App />
   </Provider>, document.getElementById('root'));
+
+
+// 4e2c622b80bcb02d7effa41e329f8604
