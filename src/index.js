@@ -5,7 +5,7 @@ import { createStore, applyMiddleware } from 'redux';
 import reducers from './reducers';
 import ReduxPromise from 'redux-promise';
 
-
+import '../styles/style.css';
 import '../styles/bootstrap.css';
 import '../styles/bootstrap_grid.css';
 import '../styles/bootstrap_reboot.css';
@@ -20,6 +20,3 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <App />
   </Provider>, document.getElementById('root'));
-
-
-// 4e2c622b80bcb02d7effa41e329f8604
